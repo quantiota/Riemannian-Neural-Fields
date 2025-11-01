@@ -2,7 +2,7 @@
 
 ### Overview
 **Structured Knowledge Accumulation (SKA)** is a forward-only learning framework that models intelligence as the continuous organization of information over space and time.  
-This repository introduces the **Riemannian Neural Field** architecture — a geometric extension of SKA — where learning is represented as smooth propagation across an information manifold driven by local entropy and neuron density.
+This repository introduces the **Riemannian Neural Field** architecture — a geometric extension of SKA — where learning is represented as smooth propagation across an information manifold driven by local entropy and neuron density. As the field evolves, the system continuously restructures its internal organization — discovering architecture dynamically rather than following a fixed network design.
 
 The model extends the SKA Neural Network into a continuous field representation in which the **density of neurons is non-homogeneous**.  
 This uneven distribution of neurons creates regions of varying informational activity across the manifold — areas of high density act as zones of complex processing, while lower-density regions provide diffusion and stabilization.  
@@ -33,6 +33,10 @@ This design leads to:
 
 - **Entropy-Based Adaptation:**  
   Learning is guided by changes in entropy, producing self-regularizing models that remain stable and interpretable over time.
+
+- **Dynamic Architecture Discovery:**
+  The geometry of the field enables the spontaneous formation of new structural patterns.
+  Network organization emerges naturally from the evolving information manifold, eliminating the need for manual design or layer definition.
 
 - **Riemannian Field Architecture:**  
   Neural activations are treated as a continuous field.  
