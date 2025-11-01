@@ -8,7 +8,7 @@ PhD in Physics | AI & Quant Researcher | Founder of the Structured Knowledge Acc
 
 ---
 
-## 🌌 Internship Offer: Computational Geometry & Neural Field Simulation
+##  Internship Offer: Computational Geometry & Neural Field Simulation
 
 ### **Title**
 **Research Intern – Riemannian Neural Fields & Structured Knowledge Accumulation (SKA)**
@@ -22,7 +22,7 @@ PhD in Physics | AI & Quant Researcher | Founder of the Structured Knowledge Acc
 
 ---
 
-## 🧠 About the Project
+##  About the Project
 The **Structured Knowledge Accumulation (SKA)** framework redefines learning as an **entropy-minimizing, forward-only process**.  
 This internship extends SKA into **continuous Riemannian neural fields**, where knowledge propagates along **geodesics of an information manifold**.
 
@@ -33,7 +33,7 @@ The work bridges **information theory, differential geometry, and computational 
 
 ---
 
-## 🚀 Your Mission
+##  Your Mission
 - Implement the **Riemannian SKA Neural Fields pipeline** in Python.  
 - Use **FEniCS** for finite element computations of entropy gradients.  
 - Employ **pydec** for discrete exterior calculus and mesh-based geodesic computation.  
@@ -64,7 +64,7 @@ The work bridges **information theory, differential geometry, and computational 
 
 ---
 
-## 🌍 What You’ll Gain
+##  What You’ll Gain
 - Hands-on experience in **3D, 4D, and 5D geometric machine learning** and **differential AI architectures**.  
 - Exposure to **real-time AI infrastructure** (QuestDB, Grafana).  
 - **Co-authorship opportunities** on future SKA research papers for significant contributions.  
@@ -72,13 +72,13 @@ The work bridges **information theory, differential geometry, and computational 
 
 ---
 
-## ✉️ How to Apply
+##  How to Apply
 Send:
 1. A short **motivation paragraph**  
 2. **CV / GitHub profile**  
 3. Example of any **numerical or geometry-related code** you’ve written  
 
-📧 **info@quantiota.org**  
+ **info@quantiota.org**  
 **Subject:** *“Riemannian Neural Fields Internship – [Your Name]”*
 
 ---
