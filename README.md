@@ -80,13 +80,13 @@ This could impact:
 
 #### **Key Insight**
 
-> The implementation **requires all five libraries** — no single one can replace the others.
->
-> * `pydec` provides discrete geometry (geodesic & mesh topology).
-> * `FEniCS` provides continuous FEM interpolation and gradients.
-> * `geomstats` defines the Riemannian metric and curvature operations.
-> * `noise` generates spatial heterogeneity (ρ fields).
-> * `torch` handles numerical SKA tensor updates.
+ The implementation **requires all five libraries** — no single one can replace the others.
+
+ * `pydec` provides discrete geometry (geodesic & mesh topology).
+ * `FEniCS` provides continuous FEM interpolation and gradients.
+ * `geomstats` defines the Riemannian metric and curvature operations.
+ * `noise` generates spatial heterogeneity (ρ fields).
+ * `torch` handles numerical SKA tensor updates.
 
 
 
