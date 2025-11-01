@@ -64,7 +64,7 @@ This repository provides:
 No equations or proprietary algorithms are included here.  
 For mathematical derivations and the complete theoretical background, see the forthcoming paper:
 
-> *Bouarfa Mahi (2025). “Structured Knowledge Accumulation: Geodesic Learning Paths and Architecture Discovery in Riemannian Neural Fields.”*
+> *Bouarfa Mahi (2026). “Structured Knowledge Accumulation: Geodesic Learning Paths and Architecture Discovery in Riemannian Neural Fields.”*
 
 ---
 
