@@ -73,7 +73,7 @@ This could impact:
 | **`pydec`**     | Core library for **Discrete Exterior Calculus (DEC)**. Used to represent the neural field as a simplicial complex, compute discrete differential forms (entropy gradients, cochains), and calculate **discrete geodesics** via weighted graph operations. |
 | **`FEniCS`**    | Handles **finite element method (FEM)** operations for computing the **entropy field** and its gradient ($\nabla h$). Provides continuous interpolation and Jacobian-based mesh operations.                                                                 |
 | **`geomstats`** | Provides **Riemannian metric tensor** operations ($\large g_{ij}$), geodesic equations, and manifold geometry routines for validation and high-level metric computations.                                                                                       |
-| **`noise`**     | Generates **Simplex noise** to create realistic neuron density fields ($\rho \, (r)$), introducing biological variability.                                                                                                                                      |
+| **`noise`**     | Generates **Simplex noise** to create realistic neuron density fields ($\large \rho$), introducing biological variability.                                                                                                                                      |
 | **`PyTorch`**   | Performs **tensor computations** (elementwise ⊙, outer products ⊗, matrix operations) for SKA update equations like (Z⊙D′⊗X). Used for time-stepped entropy and weight updates.                                                                           |
 
 ---
