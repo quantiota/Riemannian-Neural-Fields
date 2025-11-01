@@ -2,9 +2,11 @@
 
 ### Overview
 **Structured Knowledge Accumulation (SKA)** is a forward-only learning framework that models intelligence as the continuous organization of information over space and time.  
-This repository introduces the **Riemannian Neural Field** architecture — a geometric extension of SKA — where learning is represented as smooth propagation across an information manifold rather than as gradient-based optimization.
+This repository introduces the **Riemannian Neural Field** architecture — a geometric extension of SKA — where learning is represented as smooth propagation across an information manifold driven by local entropy and neuron density.
 
-The approach replaces back-propagation with a direct principle of **entropy-driven knowledge accumulation**, producing systems that learn continuously, deterministically, and without weight reversal.
+The model extends the SKA Neural Network into a continuous field representation in which the **density of neurons is non-homogeneous**.  
+This uneven distribution of neurons creates regions of varying informational activity across the manifold — areas of high density act as zones of complex processing, while lower-density regions provide diffusion and stabilization.  
+Learning thus emerges as a structured flow through this non-uniform field, continuously adapting and organizing information in space and time.
 
 ---
 
@@ -14,8 +16,8 @@ SKA reformulates learning as a **physical process**: information flows through a
 The field’s geometry evolves with the data itself, allowing the model to self-organize and discover architecture dynamically.
 
 This design leads to:
-- **Forward-only dynamics** — knowledge is never unlearned, only refined.
-- **Intrinsic geometry** — the structure of learning emerges from the data’s entropy and density, not from predefined architectures.
+- **Forward-only dynamics** — knowledge is never unlearned, only refined.  
+- **Intrinsic geometry** — the structure of learning emerges from the data’s entropy and neuron density, not from predefined architectures.  
 - **Dimensional universality** — the same framework operates in 3D, 4D, or higher-dimensional information spaces without modification.
 
 ---
@@ -23,17 +25,18 @@ This design leads to:
 ### Conceptual Highlights
 - **Information Manifold:**  
   Each learning process unfolds on a manifold whose local geometry reflects the organization of knowledge.  
-  The manifold evolves with entropy, enabling adaptive learning pathways.
+  The manifold evolves with entropy, and the **non-homogeneous neuron density** acts as an internal weighting mechanism that shapes the curvature of learning and the flow of information.
 
 - **Geodesic Learning Paths:**  
-  Instead of minimizing a loss function, the system follows the shortest information paths—geodesics—through the evolving knowledge field.
+  Instead of minimizing a loss function, the system follows the shortest information paths—geodesics—through the evolving knowledge field.  
+  These trajectories adapt naturally to the spatial variations in neuron density, concentrating learning where informational gradients are strongest.
 
 - **Entropy-Based Adaptation:**  
   Learning is guided by changes in entropy, producing self-regularizing models that remain stable and interpretable over time.
 
 - **Riemannian Field Architecture:**  
   Neural activations are treated as a continuous field.  
-  Connectivity and structure arise naturally from the information landscape rather than from manual design.
+  Connectivity and structure arise naturally from the information landscape and neuron distribution rather than from manual design.
 
 - **Scalability Across Dimensions:**  
   The same mechanism applies to spatial (3D), spatiotemporal (4D), or higher-order cognitive fields (5D+), offering a unified view of learning across physical and informational domains.
@@ -55,7 +58,7 @@ This could impact:
 This repository provides:
 - Conceptual overview of the SKA Riemannian Neural Field paradigm  
 - Reference implementation structure (to be released separately)  
-- Visualization framework outline for entropy and knowledge evolution  
+- Visualization framework outline for entropy, neuron density, and knowledge evolution  
 - Research roadmap and references to ongoing work
 
 No equations or proprietary algorithms are included here.  
@@ -88,4 +91,4 @@ free for academic and non-commercial use with attribution, no derivative works.
 
 ---
 
-> *This repository represents a new direction in geometric AI: learning not as optimization, but as the natural flow of knowledge through structured information space.*
+> *This repository represents a new direction in geometric AI: learning not as optimization, but as the natural flow of knowledge through structured information space with non-homogeneous neuron density and evolving geometry.*
