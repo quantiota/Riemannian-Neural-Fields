@@ -63,7 +63,37 @@ This could impact:
 - **Dynamic cognitive simulations**  
 - **Real-time learning agents**
 
+
 ---
+
+###  **Python Libraries Used in the Paper**
+
+| Library         | Role / Purpose                                                                                                                                                                                                                                            |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **`pydec`**     | Core library for **Discrete Exterior Calculus (DEC)**. Used to represent the neural field as a simplicial complex, compute discrete differential forms (entropy gradients, cochains), and calculate **discrete geodesics** via weighted graph operations. |
+| **`FEniCS`**    | Handles **finite element method (FEM)** operations for computing the **entropy field** and its gradient (\nabla h). Provides continuous interpolation and Jacobian-based mesh operations.                                                                 |
+| **`geomstats`** | Provides **Riemannian metric tensor** operations (g_{ij}(r)), geodesic equations, and manifold geometry routines for validation and high-level metric computations.                                                                                       |
+| **`noise`**     | Generates **Simplex noise** to create realistic neuron density fields (\rho(r)), introducing biological variability.                                                                                                                                      |
+| **`PyTorch`**   | Performs **tensor computations** (elementwise ⊙, outer products ⊗, matrix operations) for SKA update equations like (Z⊙D′⊗X). Used for time-stepped entropy and weight updates.                                                                           |
+
+---
+
+#### **Key Insight**
+
+> The implementation **requires all five libraries** — no single one can replace the others.
+>
+> * `pydec` provides discrete geometry (geodesic & mesh topology).
+> * `FEniCS` provides continuous FEM interpolation and gradients.
+> * `geomstats` defines the Riemannian metric and curvature operations.
+> * `noise` generates spatial heterogeneity (ρ fields).
+> * `torch` handles numerical SKA tensor updates.
+
+
+
+These libraries together bridge **information geometry**, **finite element simulation**, and **entropy-driven neural learning**.
+
+---
+
 
 ### Repository Contents
 This repository provides:
