@@ -13,11 +13,11 @@ Learning thus emerges as a structured flow through this non-uniform field, conti
 ### Core Idea
 Traditional machine-learning systems rely on statistical error minimization.  
 SKA reformulates learning as a **physical process**: information flows through a structured field, adapting locally while preserving global consistency.  
-The field’s geometry evolves with the data itself, allowing the model to self-organize and discover architecture dynamically.
+The field’s geometry evolves with the data itself, allowing the model to self-organize and **discover architecture dynamically**.
 
 This design leads to:
 - **Forward-only dynamics** — knowledge is never unlearned, only refined.  
-- **Intrinsic geometry** — the structure of learning emerges from the data’s entropy and neuron density, not from predefined architectures.  
+- **Intrinsic geometry** — the structure of learning emerges from the data’s entropy and neuron density, not from **predefined architectures**.  
 - **Dimensional universality** — the same framework operates in 3D, 4D, or higher-dimensional information spaces without modification.
 
 ---
