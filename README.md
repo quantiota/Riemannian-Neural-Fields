@@ -39,7 +39,7 @@ This design leads to:
   Connectivity and structure arise naturally from the information landscape and neuron distribution rather than from manual design.
 
 - **Scalability Across Dimensions:**  
-  The same mechanism applies to spatial (3D), spatiotemporal (4D), or higher-order cognitive fields (5D+), offering a unified view of learning across physical and informational domains.
+  The same mechanism applies to spatial (3D), or higher-order cognitive fields (4D+), offering a unified view of learning across physical and informational domains.
 
 ---
 
