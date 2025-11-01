@@ -42,6 +42,13 @@ This design leads to:
   Neural activations are treated as a continuous field.  
   Connectivity and structure arise naturally from the information landscape and neuron distribution rather than from manual design.
 
+  - **The Duality of Local and Spatial Learning Paths:**  
+  The SKA Neural Fields framework reveals a profound duality in how knowledge accumulates, governed by two complementary principles.  
+  Locally, knowledge evolves **temporally** following the *first law of entropic least action* — minimizing entropy through time.  
+  Globally, knowledge propagates **spatially** following the *second law of spatial least action* — optimizing the flow of information across entropy and density landscapes.  
+  These dual principles operate in parallel, coupling time-based learning with space-based self-organization, uniting temporal cognition and spatial intelligence under a single formalism.
+
+
 - **Scalability Across Dimensions:**  
   The same mechanism applies to spatial (3D), or higher-order cognitive fields (4D+), offering a unified view of learning across physical and informational domains.
 
