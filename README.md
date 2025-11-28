@@ -8,7 +8,7 @@ The model extends the SKA Neural Network into a continuous field representation 
 This uneven distribution of neurons creates regions of varying informational activity across the manifold — areas of high density act as zones of complex processing, while lower-density regions provide diffusion and stabilization.  
 Learning thus emerges as a structured flow through this non-uniform field, continuously adapting and organizing information in space and time.
 
----
+
 
 ### Core Idea
 Traditional machine-learning systems rely on statistical error minimization.  
@@ -20,7 +20,7 @@ This design leads to:
 - **Intrinsic geometry** — the structure of learning emerges from the data’s entropy and neuron density, not from **predefined architectures**.  
 - **Dimensional universality** — the same framework operates in 3D, 4D, or higher-dimensional information spaces without modification.
 
----
+
 
 ### Conceptual Highlights
 - **Information Manifold:**  
@@ -52,7 +52,7 @@ This design leads to:
 - **Scalability Across Dimensions:**  
   The same mechanism applies to spatial (3D), or higher-order cognitive fields (4D+), offering a unified view of learning across physical and informational domains.
 
----
+
 
 ### Why It Matters
 Modern AI systems learn by statistical approximation; they require massive data and periodic retraining.  
@@ -64,7 +64,7 @@ This could impact:
 - **Real-time learning agents**
 
 
----
+
 
 ###  **Python Libraries Used in the Paper**
 
@@ -76,7 +76,7 @@ This could impact:
 | **`noise`**     | Generates **Simplex noise** to create realistic neuron density fields ($\large \rho$), introducing biological variability.                                                                                                                                      |
 | **`PyTorch`**   | Performs **tensor computations** (elementwise ⊙, outer products ⊗, matrix operations) for SKA update equations like (Z⊙D′⊗X). Used for time-stepped entropy and weight updates.                                                                           |
 
----
+
 
 #### **Key Insight**
 
@@ -92,7 +92,7 @@ This could impact:
 
 These libraries together bridge **information geometry**, **finite element simulation**, and **entropy-driven neural learning**.
 
----
+
 
 
 ### Repository Contents
@@ -107,14 +107,14 @@ For mathematical derivations and the complete theoretical background, see the fo
 
 > *Bouarfa Mahi (2026). “Structured Knowledge Accumulation: Geodesic Learning Paths and Architecture Discovery in Riemannian Neural Fields.”*
 
----
+
 
 ### Status
 - **Phase 1:** Theoretical formulation (completed)  
 - **Phase 2:** 3D/4D prototype simulations (in progress)  
 - **Phase 3:** Cross-domain applications (planned for 2026)
 
----
+
 
 ### Contact
 For collaboration or research inquiries:
@@ -124,12 +124,12 @@ Quantiota Research Lab
 📧 info@quantiota.org  
 🌐 [https://github.com/quantiota](https://github.com/quantiota)
 
----
+
 
 ### License
 All materials are released under **CC BY-NC-ND 4.0** —  
 free for academic and non-commercial use with attribution, no derivative works.
 
----
+
 
 > *This repository represents a new direction in geometric AI: learning not as optimization, but as the natural flow of knowledge through structured information space with non-homogeneous neuron density and evolving geometry.*
