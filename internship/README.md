@@ -33,7 +33,7 @@ The work bridges **information theory, differential geometry, and computational 
 
 ---
 
-##  Your Mission
+##  Your Mission: Start with a ready-to-use SKA Neural Fields
 - Implement the **Riemannian SKA Neural Fields pipeline** in Python.  
 - Use **FEniCS** for finite element computations of entropy gradients.  
 - Employ **pydec** for discrete exterior calculus and mesh-based geodesic computation.  
