@@ -37,7 +37,7 @@ The work bridges **information theory, differential geometry, and computational 
 - Implement the **Riemannian SKA Neural Fields pipeline** in Python.  
 - Use **FEniCS** for finite element computations of entropy gradients.  
 - Employ **pydec** for discrete exterior calculus and mesh-based geodesic computation.  
-- Integrate **geomstats** for Riemannian metric tensor operations.  
+- Integrate **torchmanifolds** for Riemannian metric tensor operations.  
 - Combine **PyTorch** for tensor dynamics and **noise** for neuron density generation.  
 - Visualize geodesic learning paths and entropy evolution using tools such as **Matplotlib**, **Paraview**, or similar.  
 - Document experiments and participate in **weekly research discussions** on geometric learning.  
