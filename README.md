@@ -127,9 +127,13 @@ Quantiota Research Lab
 
 
 
-### License
-All materials are released under **CC BY-NC-ND 4.0** —  
-free for academic and non-commercial use with attribution, no derivative works.
+## License Notice
+
+This repository and its contents are licensed under a **Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International License**.
+
+No redistribution, reproduction, or modification is permitted without prior written
+permission from **Bouarfa Mahi | Quantiota**.
+
 
 
 
