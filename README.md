@@ -134,7 +134,7 @@ This repository and its contents are licensed under a **Creative Commons Attribu
 No redistribution, reproduction, or modification is permitted without prior written
 permission from **Bouarfa Mahi | Quantiota**.
 
-
+Free for academic and non-commercial use with attribution, no derivative works.
 
 
 > *This repository represents a new direction in geometric AI: learning not as optimization, but as the natural flow of knowledge through structured information space with non-homogeneous neuron density and evolving geometry.*
