@@ -8,7 +8,8 @@ import numpy as np
 import os
 os.makedirs("density_xd_results", exist_ok=True)
 
-# Import snoise5 directly from the noise fork that supports it
+# Import snoise5 from the noise fork that supports 5D simplex noise
+# Install from: https://github.com/Kacper-W-Kozdon/noise/tree/simplex5d
 from noise import snoise5
 
 def generate_5d_density_field(grid_size=(15, 15, 15, 15, 15), base_density=10000000, 
