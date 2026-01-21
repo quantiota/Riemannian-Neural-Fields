@@ -43,7 +43,7 @@ Hypercube vertices grow **exponentially** (2ⁿ).
 |-------------|--------------|
 | Perlin noise | Exponential cost, artifacts above 3D |
 | Random field | No spatial coherence → meaningless ∇ρ |
-| Gaussian random field | No gradient control |
+| Gaussian random field | No bounded, artifact-free gradient control |
 | Uniform density | No structure to drive geodesics |
 
 ## Implications for RNF
