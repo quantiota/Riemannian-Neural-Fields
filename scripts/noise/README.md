@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Riemannian SKA Neural Fields framework requires spatially coherent density fields ρ(r) in arbitrary dimensions. Simplex noise is the **unique** choice that enables this.
+The Riemannian SKA Neural Fields framework requires spatially coherent density fields ρ(r) in arbitrary dimensions. Simplex noise is the only known practical procedural noise function that enables this.
 
 ## The Problem
 
