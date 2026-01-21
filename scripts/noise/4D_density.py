@@ -7,7 +7,7 @@ import matplotlib.ticker as ticker
 import numpy as np
 import os
 os.makedirs("/home/coder/density_xd_results", exist_ok=True)
-# Try to import Perlin noise, with fallback to a simpler random implementation
+# Try to import Simplex noise, with fallback to a simpler random implementation
 
 from noise import snoise4
 
@@ -16,16 +16,16 @@ def generate_4d_density_field(grid_size=(15, 15, 15, 15), base_density=1000000,
                              density_variation=0.5, scale=0.1, 
                              octaves=4, persistence=0.5, lacunarity=2.0):
     """
-    Generate a 4D neuron density field using Perlin noise.
+    Generate a 4D neuron density field using Simplex noise.
 
     Args:
         grid_size: Tuple (nx, ny, nz, nw) defining the 4D grid dimensions
         base_density: Base neuron density (neurons per mm^4)
         density_variation: Amplitude of density variation around base (0-1)
         scale: Physical size of each grid cell in mm
-        octaves: Number of octaves for Perlin noise
-        persistence: Persistence for Perlin noise
-        lacunarity: Lacunarity for Perlin noise
+        octaves: Number of octaves for Simplex noise
+        persistence: Persistence for Simplex noise
+        lacunarity: Lacunarity for Simplex noise
 
     Returns:
         torch.Tensor: 4D tensor of neuron counts per grid cell
