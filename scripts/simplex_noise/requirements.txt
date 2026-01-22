@@ -1,0 +1,6 @@
+
+ noise @ git+https://github.com/Kacper-W-Kozdon/noise.git@simplex5d
+ torch==1.13.1
+ numpy<2.0.0
+ matplotlib==3.7.0
+
