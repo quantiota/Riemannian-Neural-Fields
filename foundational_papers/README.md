@@ -80,7 +80,7 @@ The beauty of SKA lies in its perfect coherence. Each paper is not an extension 
 The structure forms a complete mathematical cycle:
 
 $$
-H \;\Rightarrow\; L \;\Rightarrow\; g_{ij}
+H \Rightarrow L \Rightarrow g_{ij}
 $$
 
 where entropy $H$ generates the Lagrangian $L$, and the Lagrangian gives rise to the Riemannian metric $g_{ij}$. This closure mirrors the great symmetries of physics — from potential to motion to geometry — but here applied to information and cognition.
