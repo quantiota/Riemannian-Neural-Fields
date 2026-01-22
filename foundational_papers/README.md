@@ -11,9 +11,9 @@ The Structured Knowledge Accumulation (SKA) framework introduced a unifying math
 
 SKA begins with the discovery that learning can be expressed as a law of entropy reduction. Each neural layer evolves autonomously, aligning its knowledge tensor \( Z \) with the decision probability shift \( D \) through forward-only dynamics:
 
-\[
+$$
 H = -\frac{1}{\ln 2} \int z \, dD
-\]
+$$
 
 This formulation establishes entropy as the central invariant of learning. Neural systems no longer require backpropagation; they self-organize by reducing uncertainty step by step.
 
@@ -25,15 +25,15 @@ This formulation establishes entropy as the central invariant of learning. Neura
 
 The second paper elevates SKA to the level of physical law. By interpreting the learning rate as a temporal differential, SKA reveals that the evolution of knowledge follows the principle of entropic least action:
 
-\[
+$$
 L(z, \dot{z}) = -z \, \sigma(z)(1 - \sigma(z)) \dot{z}
-\]
+$$
 
 The Euler–Lagrange equation,
 
-\[
+$$
 \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{z}}\right) - \frac{\partial L}{\partial z} = 0,
-\]
+$$
 
 collapses to an identity \( 0 = 0 \), showing that the system’s trajectory is intrinsically optimal. Learning is thus a natural law of motion in information space — not an optimization problem, but an entropic flow.
 
@@ -45,15 +45,15 @@ collapses to an identity \( 0 = 0 \), showing that the system’s trajectory is 
 
 The third work extends SKA to continuous neural fields. By introducing neuron density \( \rho(\mathbf{r}) \) and local entropy \( h(\mathbf{r}) \), the neural medium becomes a Riemannian information manifold with metric:
 
-\[
+$$
 g_{ij}(\mathbf{r}) = \alpha (\nabla h)_i (\nabla h)_j + \beta (\nabla \rho)_i (\nabla \rho)_j + \gamma \delta_{ij}
-\]
+$$
 
 Knowledge propagates along geodesic trajectories that minimize information distance:
 
-\[
+$$
 \frac{d^2 x^i}{dt^2} + \Gamma^i_{jk} \frac{dx^j}{dt} \frac{dx^k}{dt} = 0,
-\]
+$$
 
 revealing architectures that are not designed but discovered — the natural geometry of entropy flow.
 
@@ -79,9 +79,9 @@ The beauty of SKA lies in its perfect coherence. Each paper is not an extension 
 
 The structure forms a complete mathematical cycle:
 
-\[
+$$
 H \;\Rightarrow\; L \;\Rightarrow\; g_{ij}
-\]
+$$
 
 where entropy (\( H \)) generates the Lagrangian (\( L \)), and the Lagrangian gives rise to the Riemannian metric (\( g_{ij} \)). This closure mirrors the great symmetries of physics — from potential to motion to geometry — but here applied to information and cognition.
 
