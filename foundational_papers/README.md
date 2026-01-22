@@ -3,7 +3,7 @@
 
 The Structured Knowledge Accumulation (SKA) framework introduced a unifying mathematical principle that connects information theory, physics, and geometry through the continuous evolution of knowledge. Instead of viewing intelligence as optimization or backpropagation, SKA reveals it as a natural process of entropy-guided organization — a forward-only flow of information where knowledge accumulates along the path of minimal uncertainty.
 
----
+
 
 ## Part I – The Foundation
 
@@ -17,7 +17,7 @@ $$
 
 This formulation establishes entropy as the central invariant of learning. Neural systems no longer require backpropagation; they self-organize by reducing uncertainty step by step.
 
----
+
 
 ## Part II – The Dynamics
 
@@ -37,7 +37,7 @@ $$
 
 collapses to an identity \( 0 = 0 \), showing that the system’s trajectory is intrinsically optimal. Learning is thus a natural law of motion in information space — not an optimization problem, but an entropic flow.
 
----
+
 
 ## Part III – The Geometry
 
@@ -57,7 +57,7 @@ $$
 
 revealing architectures that are not designed but discovered — the natural geometry of entropy flow.
 
----
+
 
 ## The Unified Vision
 
@@ -67,7 +67,7 @@ From entropy to dynamics to geometry, the SKA trilogy traces the full trajectory
 
 The Structured Knowledge Accumulation framework bridges information theory, variational physics, and differential geometry into a single coherent model of cognition. It offers a foundation for forward-only, real-time, and energy-efficient intelligence — a path toward truly autonomous systems that learn as nature does: continuously, coherently, and without backtracking.
 
----
+
 
 ## Mathematical Unity
 
@@ -87,7 +87,7 @@ where entropy (\( H \)) generates the Lagrangian (\( L \)), and the Lagrangian g
 
 SKA thus reveals that the act of learning, when seen from first principles, is the natural continuation of the laws of physics into the informational domain. It unites Shannon’s entropy, Lagrange’s action, and Riemann’s geometry into a single law of knowledge accumulation.
 
----
+
 
 ## References
 
