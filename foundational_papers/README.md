@@ -9,7 +9,7 @@ The Structured Knowledge Accumulation (SKA) framework introduced a unifying math
 
 **Structured Knowledge Accumulation: An Autonomous Framework for Layer-Wise Entropy Reduction in Neural Learning**
 
-SKA begins with the discovery that learning can be expressed as a law of entropy reduction. Each neural layer evolves autonomously, aligning its knowledge tensor \( Z \) with the decision probability shift \( D \) through forward-only dynamics:
+SKA begins with the discovery that learning can be expressed as a law of entropy reduction. Each neural layer evolves autonomously, aligning its knowledge tensor $Z$ with the decision probability shift $D$ through forward-only dynamics:
 
 $$
 H = -\frac{1}{\ln 2} \int z \, dD
@@ -35,7 +35,7 @@ $$
 \frac{d}{dt}\left(\frac{\partial L}{\partial \dot{z}}\right) - \frac{\partial L}{\partial z} = 0,
 $$
 
-collapses to an identity \( 0 = 0 \), showing that the system’s trajectory is intrinsically optimal. Learning is thus a natural law of motion in information space — not an optimization problem, but an entropic flow.
+collapses to an identity $0 = 0$, showing that the system’s trajectory is intrinsically optimal. Learning is thus a natural law of motion in information space — not an optimization problem, but an entropic flow.
 
 
 
@@ -43,7 +43,7 @@ collapses to an identity \( 0 = 0 \), showing that the system’s trajectory is 
 
 **Structured Knowledge Accumulation: Geodesic Learning Paths and Architecture Discovery in Riemannian Neural Fields**
 
-The third work extends SKA to continuous neural fields. By introducing neuron density \( \rho(\mathbf{r}) \) and local entropy \( h(\mathbf{r}) \), the neural medium becomes a Riemannian information manifold with metric:
+The third work extends SKA to continuous neural fields. By introducing neuron density $\rho(\mathbf{r})$ and local entropy $h(\mathbf{r})$, the neural medium becomes a Riemannian information manifold with metric:
 
 $$
 g_{ij}(\mathbf{r}) = \alpha (\nabla h)_i (\nabla h)_j + \beta (\nabla \rho)_i (\nabla \rho)_j + \gamma \delta_{ij}
@@ -83,7 +83,7 @@ $$
 H \;\Rightarrow\; L \;\Rightarrow\; g_{ij}
 $$
 
-where entropy (\( H \)) generates the Lagrangian (\( L \)), and the Lagrangian gives rise to the Riemannian metric (\( g_{ij} \)). This closure mirrors the great symmetries of physics — from potential to motion to geometry — but here applied to information and cognition.
+where entropy $H$ generates the Lagrangian $L$, and the Lagrangian gives rise to the Riemannian metric $g_{ij}$. This closure mirrors the great symmetries of physics — from potential to motion to geometry — but here applied to information and cognition.
 
 SKA thus reveals that the act of learning, when seen from first principles, is the natural continuation of the laws of physics into the informational domain. It unites Shannon’s entropy, Lagrange’s action, and Riemann’s geometry into a single law of knowledge accumulation.
 
