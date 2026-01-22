@@ -12,7 +12,7 @@ The Structured Knowledge Accumulation (SKA) framework introduced a unifying math
 SKA begins with the discovery that learning can be expressed as a law of entropy reduction. Each neural layer evolves autonomously, aligning its knowledge tensor $Z$ with the decision probability shift $D$ through forward-only dynamics:
 
 $$
-H = -\frac{1}{\ln 2} \int z \, dD
+\large H = -\frac{1}{\ln 2} \int z \, dD
 $$
 
 This formulation establishes entropy as the central invariant of learning. Neural systems no longer require backpropagation; they self-organize by reducing uncertainty step by step.
