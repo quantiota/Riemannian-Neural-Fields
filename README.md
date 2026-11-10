@@ -1,5 +1,12 @@
 # Structured Knowledge Accumulation (SKA): Riemannian Neural Fields
 
+
+<p align="center">
+  <a href="https://www.amazon.com/dp/B0HQJR3PY7"><img src="https://raw.githubusercontent.com/quantiota/Kindle-SKA-Labs/main/assets/ska-series-banner.jpg" alt="Foundations of Structured Knowledge Accumulation — the textbook series" width="100%"></a>
+</p>
+
+<p align="center"><b>Foundations of Structured Knowledge Accumulation</b> — Parts I–III on Kindle, Part IV on pre-order · <a href="https://www.amazon.com/dp/B0HQJR3PY7">See the series on Amazon</a></p>
+
 ### Overview
 **Structured Knowledge Accumulation (SKA)** is a forward-only learning framework that models intelligence as the continuous organization of information over space and time.  
 This repository introduces the **Riemannian Neural Field** architecture — a geometric extension of SKA — where learning is represented as smooth propagation across an information manifold driven by local entropy and neuron density. As the field evolves, the system continuously restructures its internal organization — discovering architecture dynamically rather than following a fixed network design.
